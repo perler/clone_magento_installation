@@ -1,0 +1,17 @@
+### START OF VARS ### 
+#for notification purposes only
+ADMIN=perler@gmail.com
+ 
+#usually you clone to a subdomain, so please specify a source domain and it's src subdomain and dest subdomain
+#the IP is neccessary for domain creation in virtualmin and must not be a FQDN, it must per an IP
+DOMAIN=example.com
+DSTIP=8.8.8.8
+SRCSUBDOMAIN=sandbox1
+DSTSUBDOMAIN=sandbox2
+#that's the password for the ftp and db user on the destination domain.
+PASSWORD=sandboxpassword
+ 
+#we are using the root db password for transferring dbs, you can use the db user password too. 
+SRCDBROOTPW=secretrootpassword
+DSTDBROOTPW=$SRCDBROOTPW
+### END oF VARS ###
