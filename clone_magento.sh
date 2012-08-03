@@ -16,7 +16,7 @@
 # - we run as root
  
 #edit this file!
-.clone_magento.vars
+. clone_magento.vars
  
 SRCURL=$SRCSUBDOMAIN.$DOMAIN
 DSTURL=$DSTSUBDOMAIN.$DOMAIN
